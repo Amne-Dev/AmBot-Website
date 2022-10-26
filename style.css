@@ -178,6 +178,7 @@ nav ul li a{
   opacity: 0.8;
   text-align: center;
   font-size: 24px;
+  line-height: 36px;
 }
 
 #landing-button{
@@ -229,3 +230,91 @@ nav ul li a{
   animation: 4s ease-in 0s 1 button-click ;
 }
 
+#our-vision{
+  margin-top: 28vh;
+}
+
+#our-vision .title{
+  opacity: 0.8;
+  font-size: 48px;
+  text-align: left;
+  margin-left: 25vh;
+}
+
+#our-vision #p-our-vision{
+  opacity: 0.8;
+  font-size: 24px;
+  text-align: left;
+  margin-left: 15vh;
+  width: 600px;
+  line-height: 36px;
+}
+
+#discord-server{
+  margin-top: 42vh;
+  right: 0;
+  text-align: right;
+}
+
+#discord-server .title{
+  opacity: 0.8;
+  font-size: 48px;
+  text-align: right;
+  margin-right: 25vh;
+}
+
+.p-discord-server{
+  opacity: 0.8;
+  font-size: 24px;
+  text-align: right;
+  margin-right: 25vh;
+  padding-right: 0;
+
+  line-height: 36px;
+  right: 0;
+}
+
+#discord-server-button{
+  display: inline-block;
+  font-size: 18px;
+}
+
+#a-discord-server{
+  background-color: #570A57;
+  border-radius: 6px;
+  margin-right: 25vh;
+}
+
+#a-discord-server:hover{
+  scale: 100%;
+  transition-duration: 0.5s;
+  background-color: #A91079;
+  padding: 14px 16px;
+  letter-spacing: 2px;
+}
+
+#a-discord-server:active{
+  background-color: #F806CC;
+  animation: 0.5s ease-in 0s 1 button-click
+}
+
+#discord-server-button li{
+  float: left;
+  list-style-type: none;
+}
+
+#discord-server-button li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  opacity: 0.9;
+  font-size: 16px;
+  right: 0;
+}
+
+#our-vision img{
+  float: right;
+  width: 460px;
+}
