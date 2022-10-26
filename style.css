@@ -232,6 +232,7 @@ nav ul li a{
 
 #our-vision{
   margin-top: 28vh;
+  height: 500px;
 }
 
 #our-vision .title{
@@ -250,8 +251,14 @@ nav ul li a{
   line-height: 36px;
 }
 
+#our-vision img{
+  float: right;
+  width: 460px;
+  translate: -15px -15px;
+}
+
 #discord-server{
-  margin-top: 42vh;
+  margin-top: 30vh;
   right: 0;
   text-align: right;
 }
@@ -314,7 +321,3 @@ nav ul li a{
   right: 0;
 }
 
-#our-vision img{
-  float: right;
-  width: 460px;
-}
