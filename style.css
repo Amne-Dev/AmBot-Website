@@ -253,7 +253,7 @@ nav ul li a{
 
 #our-vision img{
   float: right;
-  width: 460px;
+  width: 45%;
   translate: -15px -15px;
 }
 
@@ -321,3 +321,28 @@ nav ul li a{
   right: 0;
 }
 
+@media screen and (max-width: 480px) {
+
+  #our-vision{
+    margin-top: 28vh;
+    height: 500px;
+    float: left;
+  }
+
+  #discord-server{
+    margin-top: 30vh;
+    right: 0;
+    text-align: right;
+    float: right;
+  }
+
+  #our-vision #p-our-vision{
+    opacity: 0.8;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 15vh;
+    width: 100%px;
+    line-height: 36px;
+  }
+
+}
