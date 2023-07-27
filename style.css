@@ -395,3 +395,24 @@ nav ul li a{
       font-size: 36px;
     }
 }
+
+footer{
+  width: 100%;
+  background-color: #00000054;
+  background-blend-mode: hard-light;
+  text-align: right; 
+}
+
+.footer-content {
+  display: inline-block; /* Display both elements in a row */
+}
+
+
+.footer-content button {
+  display: inline-block; /* Display the button next to the copyright text */
+  background: none; /* Remove the background of the button */
+  border: none; /* Remove button border */
+  color: #555; /* Set text color for the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-left: 10px; /* Add some space between the text and button */
+}
